@@ -89,9 +89,19 @@ export default StyleSheet.create({
         flexDirection:'row',
         justifyContent:'space-between',
         alignItems:'center',
-        padding:18,
+        paddingVertical:18,
+        paddingHorizontal:30,
         borderBottomWidth:1,
-        borderBottomColor:'#ffffff',
+        borderBottomColor:'#d5d5d5',
         fontWeight:'600'
+    },
+    iconListWrap: {
+        display: 'flex', width: '100%', 
+        flexDirection:'row', 
+        borderBottomColor:'#d5d5d5',
+        borderBottomWidth:1,
+        paddingVertical:24,
+        paddingHorizontal:30,
+        color: '#858585',
     }
 });
